@@ -14,6 +14,17 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/that-recsys-lab/librec-auto",
     packages=setuptools.find_packages(),
+
+	include_package_data=True,
+	install_requires=['matplotlib',
+                      'pandas',
+                      'numpy',
+                      'progressbar',
+                      'lxml',
+                      'slack',
+                      'slacker',
+                      'dropbox'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
