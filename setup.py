@@ -25,6 +25,7 @@ setuptools.setup(
                       'slackclient>=2.0',
                       'slack',
                       'slacker',
+                      'fairsearchcore'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
